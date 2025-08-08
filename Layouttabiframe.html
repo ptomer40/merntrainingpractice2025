@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table layout using iframe </title>
+</head>
+<body>
+    <table border="1" width="100%">
+        <thead><tr bgcolor="black"><th height="100px" colspan="2">
+            <font color="white">
+            Home | Training | Development | Consulting | About-us | Contact-us
+             </font>
+        </th></tr></thead>
+
+        <tbody>
+            <tr height="400px">
+                <td width="20%" bgcolor='4F4846'>
+            <ul style="list-style-type: none;">
+                <li><a href="java.html" target="myframe">Java Programming</a></li>
+                <li><a href="react.html" target="myframe">React Development</a></li>
+                <li>Web Development</li>
+                <li>Mobile application development</li>
+                <li>Springboot API development</li>
+            </ul>
+        </td><td width="80%">
+            <iframe height="600px" width="1000px" src="./images/cat.jpg" name="myframe" ></iframe>
+        </td></tr></tbody>
+        
+        <tfoot>
+            <tr height="200px"><td colspan="2">ABES Engineering College</td></tr>
+        
+        
+        </tfoot>
+    </table>
+</body>
+</html>
